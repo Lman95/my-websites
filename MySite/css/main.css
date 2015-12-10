@@ -1,0 +1,48 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+#main {
+	height: 500px;
+	width: 1300px;
+	background-color: green;
+	color: white;
+}
+
+#main p {
+	padding-top: 40px;
+}
+
+.nav {
+	position: fixed;
+    z-index: 999;
+    background-color: darkcyan;
+    width: 100%;
+    font-size: 16px;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#block1, #block2 {
+	background-color: gray;
+}
+
+.row div {
+	margin: 1em;
+}
+
+@media screen and (min-width: 992px) {
+    .row div {
+    	width: 33%;
+    }
+}

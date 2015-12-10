@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MySite">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- set the page title here -->
+        <title>Landon Young</title>
+
+        <!-- My stylesheet -->
+        <link rel="stylesheet" href="css/main.css"> 
+
+        <!-- Load Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    </head>
+    <body ng-controller="MainCtrl">
+        <nav class="nav">
+            <ul>
+                <li><a href="#top">LANDON</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+            </ul>
+        </nav>
+    <div class='container-fluid' id="main">
+        <div class="row">
+            <div class="col-xs-12 col-md-4" id="block1">
+                <p>
+                    Some text for kicks Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4" id="block2">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- load external libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.js"></script>
+
+    <!-- Load my script -->
+    <script src="js/app.js"></script>
+    </body>
+</html>
